@@ -1,0 +1,26 @@
+Package: bimergm
+Type: Package
+Title: Bipartite exponential random graph models with nodal random effects
+Version: 1.0.0
+Authors@R: 
+    person(given = "Sevag",
+           family = "Kevork",
+           role = c("aut", "cre"),
+           email = "Sevag.kevork@stat.uni-muenchen.de",
+           comment = c(ORCID = "0000-0001-6324-4713"))
+Maintainer: The package maintainer <me@sevagkevork.net>
+Description: bimergm is used to fit bipartite ERGMs taking the node heterogeneity 
+    into account, the estimation is carried out iteratively. For the estimation 
+    i.e. prediction of nodal random effects, which counts for nodal heterogeneity, 
+    we use pseudo-likelihood estimation techniques and for the estimation of networks 
+    statistics, endogenous or exogenous, we use MCMC-MLE estimation techniques, 
+    where the random effects are set as offset parameter.
+License: 
+imports: 
+    ergm,
+    matrixStats,
+    mgcv,
+    network
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
