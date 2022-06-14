@@ -6,14 +6,14 @@ Authors@R:
     person(given = "Sevag",
            family = "Kevork",
            role = c("aut", "cre"),
-           email = "Sevag.kevork@stat.uni-muenchen.de",
+           email = "me@sevagkevork.net",
            comment = c(ORCID = "0000-0001-6324-4713"))
-Maintainer: The package maintainer <me@sevagkevork.net>
+Maintainer: The maintainer of the package is Sevag Kevork <me@sevagkevork.net>
 Description: bimergm is used to fit bipartite ERGMs taking the node heterogeneity 
     into account, the estimation is carried out iteratively. For the estimation 
     i.e. prediction of nodal random effects, which counts for nodal heterogeneity, 
-    we use pseudo-likelihood estimation techniques and for the estimation of networks 
-    statistics, endogenous or exogenous, we use MCMC-MLE estimation techniques, 
+    pseudo-likelihood estimation techniques are used, and for the estimation of networks 
+    statistics, endogenous or exogenous, MCMC-MLE estimation techniques are adapted, 
     where the random effects are set as offset parameter.
 License: 
 imports: 
